@@ -1,0 +1,17 @@
+.ck.ck-button.ck-heading-preformattedText span {
+  font-family: monospace;
+}
+.ck.ck-button.ck-heading-superscript span {
+  vertical-align: super;
+  font-size: smaller;
+}
+.ck.ck-button.ck-heading-subscript  span{
+  vertical-align: sub;
+  font-size: smaller;
+}
+.ck.ck-button.ck-heading-strikeout span {
+  text-decoration: line-through;
+}
+.ck.ck-button.ck-heading-code span {
+  font-family: monospace;
+}

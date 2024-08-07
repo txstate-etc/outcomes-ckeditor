@@ -1,0 +1,66 @@
+{
+  "name": "@outcomes/ckeditor",
+  "version": "1.1.4",
+  "description": "Custom CKEditor build for @outcomes/dialog.",
+  "keywords": [
+    "outcomes",
+    "ckeditor5"
+  ],
+  "main": "./build/ckeditor.js",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@ckeditor/ckeditor5-alignment": "^35.4.0",
+    "@ckeditor/ckeditor5-autoformat": "^35.4.0",
+    "@ckeditor/ckeditor5-basic-styles": "^35.4.0",
+    "@ckeditor/ckeditor5-block-quote": "^35.4.0",
+    "@ckeditor/ckeditor5-editor-classic": "^35.4.0",
+    "@ckeditor/ckeditor5-essentials": "^35.4.0",
+    "@ckeditor/ckeditor5-font": "^35.4.0",
+    "@ckeditor/ckeditor5-heading": "^35.4.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^35.4.0",
+    "@ckeditor/ckeditor5-html-support": "^35.4.0",
+    "@ckeditor/ckeditor5-image": "^35.4.0",
+    "@ckeditor/ckeditor5-indent": "^35.4.0",
+    "@ckeditor/ckeditor5-link": "^35.4.0",
+    "@ckeditor/ckeditor5-list": "^35.4.0",
+    "@ckeditor/ckeditor5-paragraph": "^35.4.0",
+    "@ckeditor/ckeditor5-paste-from-office": "^35.4.0",
+    "@ckeditor/ckeditor5-remove-format": "^35.4.0",
+    "@ckeditor/ckeditor5-source-editing": "^35.4.0",
+    "@ckeditor/ckeditor5-special-characters": "^35.4.0",
+    "@ckeditor/ckeditor5-table": "^35.4.0",
+    "@ckeditor/ckeditor5-typing": "^35.4.0",
+    "@ckeditor/ckeditor5-undo": "^35.4.0",
+    "@ckeditor/ckeditor5-widget": "35.4.0",
+    "@ckeditor/ckeditor5-core": "^35.4.0",
+    "@ckeditor/ckeditor5-dev-translations": "^32.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^32.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^35.4.0",
+    "css-loader": "^5.2.7",
+    "postcss-loader": "^4.3.0",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=5.7.1"
+  },
+  "author": "CKSource (http://cksource.com/)",
+  "license": "GPL-2.0-or-later",
+  "homepage": " https://www.npmjs.com/package/@outcomes/ckeditor",
+  "bugs": "https://github.com/txstate-etc/outcomes-ckeditor/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/txstate-etc/outcomes-ckeditor",
+    "directory": "packages/ckeditor5-build-classic"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublishOnly": "npm run build"
+  }
+}
